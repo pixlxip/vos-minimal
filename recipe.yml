@@ -1,12 +1,12 @@
-name: Vanilla Desktop
-id: desktop
+name: Vanilla OS Minimal
+id: vos-minimal
 
 stages:
 - id: build
   base: ghcr.io/vanilla-os/core:dev
   singlelayer: false
   labels:
-    maintainer: Vanilla OS Contributors
+    maintainer: pixl_xip
   args:
     DEBIAN_FRONTEND: noninteractive
   runs:
