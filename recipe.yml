@@ -62,7 +62,6 @@ stages:
       - modules/131-plymouth-theme-vanilla.yml
       - modules/140-password.yml
       - modules/160-utilities.yml
-      - modules/170-gnome-software-vso-plugin.yml
       - modules/200-gnome-common.yml
       - modules/210-libs-extra.yml
       - modules/997-ensure-exec-hooks.yml
