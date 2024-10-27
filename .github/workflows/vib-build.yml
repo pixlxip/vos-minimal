@@ -3,9 +3,11 @@ name: Vib Build
 on:
   push:
     branches:
-      - 'dev'
+      - 'main'
     tags:
       - '*'
+  schedule:
+    - cron: '21 */6 * * *'
   workflow_dispatch:
   pull_request:
 
