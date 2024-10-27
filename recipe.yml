@@ -45,7 +45,6 @@ stages:
       - modules/00-vanilla-first-setup.yml
       - modules/00-vanilla-gnome-default-settings.yml
       - modules/00-vanilla-system-operator.yml
-      - modules/00-vanilla-apx-gui.yml
       - modules/00-vanilla-sideload.yml
       - modules/00-vanilla-updates-utility.yml
       - modules/00-vanilla-prime-utility.yml
@@ -55,7 +54,6 @@ stages:
       - modules/21-gnome-control-center.yml
       - modules/30-gnome-essentials.yml
       - modules/40-gnome-appearance.yml
-      - modules/50-laptop-goodies.yml
       - modules/60-media.yml
       - modules/100-accessibility.yml
       - modules/110-fonts.yml
