@@ -1,9 +1,9 @@
-# Vanilla OS Desktop Image
+# Unofficial Vanilla OS Minimal Image
 
-Containerfile for building a Vanilla OS Desktop image.
+Containerfile for building a minimal Vanilla OS image.
 
-This image is based on top of [`vanillaos/core`](https://github.com/Vanilla-OS/core-image/pkgs/container/core) and offers the default
-Vanilla OS Desktop experience with GNOME.
+This image is based on top of [`vanillaos/core`](https://github.com/Vanilla-OS/core-image/pkgs/container/core) and offers a minimal
+Vanilla OS experience without GNOME.
 
 ## Build
 
@@ -12,13 +12,5 @@ Vanilla OS Desktop experience with GNOME.
 
 ```bash
 vib build recipe.yml
-podman image build -t vanillaos/desktop .
-```
-
-## Verify Image Build Provenance Attestation
-
-All the image builds/pushes are attested for build provenance and integrity using the [attest-build-provenance](https://github.com/actions/attest-build-provenance) action. The attestations can be verified [here](https://github.com/Vanilla-OS/desktop-image/attestations) or by having the latest version of [GitHub CLI](https://github.com/cli/cli/releases/latest) installed in your system. Then, execute the following command:
-
-```sh
-gh attestation verify oci://ghcr.io/vanilla-os/desktop:main --owner Vanilla-OS
+podman image build -t pixlxip/vos-minimal .
 ```
