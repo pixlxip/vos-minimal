@@ -7,4 +7,5 @@ source:
   - gnome-sushi
   - ghostscript
   - zenity
+  - flatpak
   - locales-all
