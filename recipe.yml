@@ -53,7 +53,6 @@ stages:
       - modules/20-gnome-core.yml
       - modules/21-gnome-control-center.yml
       - modules/30-gnome-essentials.yml
-      - modules/40-gnome-appearance.yml
       - modules/60-media.yml
       - modules/100-accessibility.yml
       - modules/120-network.yml
